@@ -61,8 +61,13 @@ public class Deck {
 	 * Randomly permute the given collection of cards
 	 * and reset the size to represent the entire deck.
 	 */
-	public void shuffle() {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+	public void shuffle() 
+	{
+	    for( int k = size - 1; k >= 0; k-- ) {
+            int r = (int)(Math.random() * k);
+            Card tmp = cards.get(r);
+            cards.set(r, cards.get(k));
+            cards.set(k, tmp);
 	}
 
 	/**
