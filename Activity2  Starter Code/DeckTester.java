@@ -9,6 +9,7 @@ public class DeckTester {
 	 */
 	public static void main(String[] args) 
 	{
+		// This is a test comment
 		String[] rank1 = {"Jack", "Queen", "King"};
 		String[] suit1 = {"Hearts", "Spades", "Diamonds"};
 		int[] value1 = {11, 12, 13};
