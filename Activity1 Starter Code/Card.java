@@ -7,6 +7,7 @@
 public class Card 
 {
 
+	//What am I doing with my life
 	/**
 	 * String value that holds the suit of the card
 	 */
