@@ -23,6 +23,8 @@ public abstract class Board {
 	 */
 	private static final boolean I_AM_DEBUGGING = false;
 
+	private static final boolean hello = true;
+
 	/**
 	 * Creates a new <code>Board</code> instance.
 	 * @param size the number of cards in the board
