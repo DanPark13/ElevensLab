@@ -11,6 +11,8 @@ public class ElevensBoard extends Board {
 	 */
 	private static final int BOARD_SIZE = 9;
 
+	// nani kore
+
 	/**
 	 * The ranks of the cards for this game to be sent to the deck.
 	 */
@@ -20,8 +22,6 @@ public class ElevensBoard extends Board {
 	/**
 	 * The suits of the cards for this game to be sent to the deck.
 	 */
-	private static final String[] SUITS =
-		{"spades", "hearts", "diamonds", "clubs"};
 
 	/**
 	 * The values of the cards for this game to be sent to the deck.
